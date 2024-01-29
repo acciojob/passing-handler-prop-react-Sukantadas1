@@ -1,0 +1,46 @@
+.app-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .color-selector-container {
+    margin-bottom: 20px;
+  }
+  
+  .color-button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .color-red {
+    background-color: red;
+    color: white;
+  }
+  
+  .color-green {
+    background-color: green;
+    color: white;
+  }
+  
+  .color-blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .selection-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fix-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 5px;
+  }

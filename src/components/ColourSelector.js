@@ -1,13 +1,19 @@
 import React from "react";
+import "../styles/ColorSelector.css";
 
 const ColorSelector = ({ onColorChange }) => {
   const colors = ["red", "green", "blue"];
 
   return (
-    <div>
+    <div className="color-selector-container">
       <h2>Color Selector</h2>
       {colors.map((color) => (
-        <button key={color} onClick={() => onColorChange(color)}>
+        <button
+          key={color}
+          className={`color-button color-${color}`}
+          onClick={() => onColorChange(color)}
+          data-testid={color.toLowerCase()} // Add data-testid
+        >
           {color}
         </button>
       ))}
