@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/ColorSelector.css";
 
 const ColorSelector = ({ onColorChange }) => {
-  const colors = ["red", "green", "blue"];
+  const colors = ["orange", "green", "blue"];
 
   return (
     <div className="color-selector-container">
