@@ -1,53 +1,47 @@
-html, body {
-    height: 100%;
-    background-color: #3c415e;
-}
-
-#master {
-    height: 75%;
-    vertical-align: baseline;
-    padding-top: 10%;
-}
-
-#root {
-    height: 100%;
-}
-
-.heading {
-    color: white;
+.app-container {
     text-align: center;
-    position: relative;
-    top: -15%;
-}
-
-.holder {
-    display: flex;
-    margin: auto;
-    width: fit-content;
-}
-
-button {
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 14px 12px;
+    margin: 20px;
+  }
+  
+  .color-selector-container {
+    margin-bottom: 20px;
+  }
+  
+  .color-button {
+    margin: 5px;
+    padding: 10px;
     cursor: pointer;
-    border-radius: 4px;
-}
-
-.btn-blue {
-    background: rgb(34, 193, 195);
-    color: black;
-}
-
-.btn-orange {
-    background: rgb(221, 112, 18);
-    color: black;
-}
-
-.btn-green {
-    background: rgb(44, 209, 88);
-    color: black;
-}
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .color-red {
+    background-color: red;
+    color: white;
+  }
+  
+  .color-green {
+    background-color: green;
+    color: white;
+  }
+  
+  .color-blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .selection-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fix-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  
